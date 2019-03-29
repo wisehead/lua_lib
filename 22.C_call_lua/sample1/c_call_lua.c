@@ -3,7 +3,6 @@
 #include "lauxlib.h"
 #include "lualib.h"
 
-//µ÷uaÖµÄddº¯Ê
 int call_lua_add(lua_State *L)
 {
     lua_getglobal(L, "add"); //»ñddº¯Ê
